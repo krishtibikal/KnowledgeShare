@@ -1,0 +1,378 @@
+[
+  {
+    "id": "api",
+    "category": "Engineering",
+    "title": "APIs & testing",
+    "blurb": "Testing an API from contract to resilience.",
+    "pages": [
+      {
+        "title": "API testing types",
+        "image": "api-testing-types.jpg"
+      }
+    ],
+    "preview": "api-testing-types.jpg",
+    "pdf": "api.pdf"
+  },
+  {
+    "id": "prompt-systems",
+    "category": "AI & ML",
+    "title": "Prompt systems",
+    "blurb": "The layers that make model work reliable and repeatable.",
+    "pages": [
+      {
+        "title": "Prompt Context Harness Loop Engineering",
+        "image": "prompt-context-harness-loop-engineering.jpg"
+      }
+    ],
+    "preview": "prompt-context-harness-loop-engineering.jpg",
+    "pdf": "prompt-systems.pdf"
+  },
+  {
+    "id": "math-probability",
+    "category": "Foundations",
+    "title": "Math & probability",
+    "blurb": "The geometry and uncertainty behind intelligent systems.",
+    "pages": [
+      {
+        "title": "AI Math",
+        "image": "ai-math.jpg"
+      },
+      {
+        "title": "Linear Algebra",
+        "image": "linear-algebra.jpg"
+      },
+      {
+        "title": "Probability Distribution",
+        "image": "probablity-distribution.jpg"
+      },
+      {
+        "title": "Probability Distribution Graph",
+        "image": "probablity-distribution-graph.jpg"
+      },
+      {
+        "title": "CLT Statistics",
+        "image": "clt-statistics.jpg"
+      },
+      {
+        "title": "Hypothesis Testing",
+        "image": "hypothesis-testing.jpg"
+      },
+      {
+        "title": "z-distribution",
+        "image": "z-distribution.jpg"
+      }
+    ],
+    "preview": "ai-math.jpg",
+    "pdf": "math-probability.pdf"
+  },
+  {
+    "id": "machine-learning",
+    "category": "AI & ML",
+    "title": "Machine learning",
+    "blurb": "A practical map of algorithms, training, and evaluation.",
+    "pages": [
+      {
+        "title": "ML All",
+        "image": "ml-all.jpg"
+      },
+      {
+        "title": "ML Essential",
+        "image": "ml-essential.jpg"
+      },
+      {
+        "title": "ML Type",
+        "image": "ml-type.jpg"
+      },
+      {
+        "title": "Ml Formulas",
+        "image": "ml-formulas.jpg"
+      },
+      {
+        "title": "Imp ML",
+        "image": "imp-ml.jpg"
+      },
+      {
+        "title": "Supervised Learning Algo",
+        "image": "aupervised-learning-algo.jpg"
+      },
+      {
+        "title": "Regression Algo",
+        "image": "regression-algo.jpg"
+      },
+      {
+        "title": "Regression Metrics",
+        "image": "regression-metrics.jpg"
+      },
+      {
+        "title": "KNN",
+        "image": "knn.jpg"
+      },
+      {
+        "title": "PCA",
+        "image": "pca.jpg"
+      },
+      {
+        "title": "Regularization in ML",
+        "image": "regularization-in-ml.jpg"
+      },
+      {
+        "title": "Gradient Descent",
+        "image": "gradient-descent.jpg"
+      },
+      {
+        "title": "Loss functions",
+        "image": "loss-fn.jpg"
+      },
+      {
+        "title": "Activation functions",
+        "image": "activation-fn.jpg"
+      },
+      {
+        "title": "Activation functions2",
+        "image": "activation-fn2.jpg"
+      }
+    ],
+    "preview": "ml-all.jpg",
+    "pdf": "machine-learning.pdf"
+  },
+  {
+    "id": "python-data",
+    "category": "Data",
+    "title": "Python & data analysis",
+    "blurb": "The everyday tools and workflows for turning data into insight.",
+    "pages": [
+      {
+        "title": "Imp Python",
+        "image": "imp-python.jpg"
+      },
+      {
+        "title": "Python functions",
+        "image": "pyhton-fn.jpg"
+      },
+      {
+        "title": "python functions",
+        "image": "python-fn.jpg"
+      },
+      {
+        "title": "DS Python",
+        "image": "ds-python.jpg"
+      },
+      {
+        "title": "Python EData analytics",
+        "image": "python-eda.jpg"
+      },
+      {
+        "title": "Python Library",
+        "image": "python-library.jpg"
+      },
+      {
+        "title": "Numpy functions",
+        "image": "numpy-fn.jpg"
+      },
+      {
+        "title": "Pandas Operation",
+        "image": "pandas-operation.jpg"
+      },
+      {
+        "title": "SciPy",
+        "image": "scipy.jpg"
+      },
+      {
+        "title": "Matplotlib viz",
+        "image": "matplotlib-viz.jpg"
+      },
+      {
+        "title": "EData analytics Q",
+        "image": "eda-q.jpg"
+      },
+      {
+        "title": "Exploratory Data Analysis",
+        "image": "exploratory-data-analysis.jpg"
+      },
+      {
+        "title": "Exploratory Data Analysis Workflow",
+        "image": "exploratory-data-analysis-workflow.jpg"
+      },
+      {
+        "title": "Data analytics types",
+        "image": "da-types.jpg"
+      },
+      {
+        "title": "Data Analytics Formula",
+        "image": "data-analytics-formula.jpg"
+      }
+    ],
+    "preview": "imp-python.jpg",
+    "pdf": "python-data.pdf"
+  },
+  {
+    "id": "data-systems",
+    "category": "Data",
+    "title": "SQL & data systems",
+    "blurb": "How data moves from storage to dependable analytical systems.",
+    "pages": [
+      {
+        "title": "Imp SQL",
+        "image": "imp-sql.jpg"
+      },
+      {
+        "title": "DB Concept",
+        "image": "db-concept.jpg"
+      },
+      {
+        "title": "Data engineering flow",
+        "image": "de-flow.jpg"
+      },
+      {
+        "title": "Data Analytics Stack",
+        "image": "data-analytics-stack.jpg"
+      }
+    ],
+    "preview": "imp-sql.jpg",
+    "pdf": "data-systems.pdf"
+  },
+  {
+    "id": "deep-learning",
+    "category": "AI & ML",
+    "title": "Deep learning",
+    "blurb": "Architectures that learn representations, sequences, and structure.",
+    "pages": [
+      {
+        "title": "Deep Learning Anatomy Structure",
+        "image": "deep-learning-anatomy-structure.jpg"
+      },
+      {
+        "title": "Neural Network Types",
+        "image": "neural-network-types.jpg"
+      },
+      {
+        "title": "Backpropagation",
+        "image": "backpropagation.jpg"
+      },
+      {
+        "title": "Encoder ML",
+        "image": "encoder-ml.jpg"
+      },
+      {
+        "title": "RNN vs LSTM vs GRU",
+        "image": "rnn-vs-lstm-vs-gru.jpg"
+      },
+      {
+        "title": "TensorFlow",
+        "image": "tensorflow.jpg"
+      }
+    ],
+    "preview": "deep-learning-anatomy-structure.jpg",
+    "pdf": "deep-learning.pdf"
+  },
+  {
+    "id": "llm-generative-ai",
+    "category": "AI & ML",
+    "title": "LLMs & generative AI",
+    "blurb": "From transformer blocks to practical generative systems.",
+    "pages": [
+      {
+        "title": "LLM Architecture",
+        "image": "llm-architecture.jpg"
+      },
+      {
+        "title": "LLM Basic",
+        "image": "llm-basic.jpg"
+      },
+      {
+        "title": "Transformer",
+        "image": "transformer.jpg"
+      },
+      {
+        "title": "Gen AI Models",
+        "image": "gen-ai-models.jpg"
+      },
+      {
+        "title": "Gen AI pre",
+        "image": "gen-ai-pre.jpg"
+      },
+      {
+        "title": "GenAI Simple Project",
+        "image": "genai-simple-project.jpg"
+      },
+      {
+        "title": "Gen AI Library",
+        "image": "gen-ai-library.jpg"
+      },
+      {
+        "title": "AI frameworks",
+        "image": "ai-frameworks.jpg"
+      }
+    ],
+    "preview": "llm-architecture.jpg",
+    "pdf": "llm-generative-ai.pdf"
+  },
+  {
+    "id": "rag-agents",
+    "category": "AI & ML",
+    "title": "RAG & agents",
+    "blurb": "Retrieval, tools, planning, and the systems that connect them.",
+    "pages": [
+      {
+        "title": "RAG",
+        "image": "rag.jpg"
+      },
+      {
+        "title": "RAG vs Agentic RAG",
+        "image": "rag-vs-agentic-rag.jpg"
+      },
+      {
+        "title": "Agent Framework",
+        "image": "agent-framework.jpg"
+      }
+    ],
+    "preview": "rag.jpg",
+    "pdf": "rag-agents.pdf"
+  },
+  {
+    "id": "computer-vision",
+    "category": "AI & ML",
+    "title": "Computer vision",
+    "blurb": "How machines see, represent, and reason over images.",
+    "pages": [
+      {
+        "title": "Computer Vision",
+        "image": "computer-vision.jpg"
+      },
+      {
+        "title": "Computer VIsion Explained",
+        "image": "computer-vision-explained.jpg"
+      }
+    ],
+    "preview": "computer-vision.jpg",
+    "pdf": "computer-vision.pdf"
+  },
+  {
+    "id": "mlops",
+    "category": "Engineering",
+    "title": "MLOps",
+    "blurb": "The delivery, monitoring, and operating layer for models.",
+    "pages": [
+      {
+        "title": "MLOps cheatsheet",
+        "image": "mlops-cheatsheet.jpg"
+      }
+    ],
+    "preview": "mlops-cheatsheet.jpg",
+    "pdf": "mlops.pdf"
+  },
+  {
+    "id": "learning-paths",
+    "category": "Foundations",
+    "title": "AI learning paths",
+    "blurb": "Curated maps for finding the next useful concept.",
+    "pages": [
+      {
+        "title": "Imp Free AI courses",
+        "image": "imp-free-ai-courses.jpg"
+      }
+    ],
+    "preview": "imp-free-ai-courses.jpg",
+    "pdf": "learning-paths.pdf"
+  }
+]

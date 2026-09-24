@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="KnowledgeShare — a visual field guide for modern engineering and AI concepts." />
+    <title>KnowledgeShare — Learn in layers</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#" aria-label="KnowledgeShare home">
+          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span>Knowledge<span>Share</span></span>
+        </a>
+        <nav class="top-nav" aria-label="Primary navigation">
+          <a href="#library">Library</a>
+          <a href="#about">About</a>
+        </nav>
+        <button class="header-button" type="button" data-scroll="#library">Explore library <span aria-hidden="true">↗</span></button>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> A visual field guide</p>
+            <h1 id="hero-title">Make complex ideas<br /><em>click.</em></h1>
+            <p class="hero-description">A small, carefully drawn library for the ideas shaping modern software, data, and AI. Learn the pattern, then see the system.</p>
+            <div class="hero-actions">
+              <button class="primary-button" type="button" data-scroll="#library">Browse the topics <span aria-hidden="true">↓</span></button>
+              <span class="hero-note">12 original topic banners</span>
+            </div>
+          </div>
+          <div class="hero-visual" aria-label="Abstract diagram showing connected ideas">
+            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+            <div class="hero-node node-main"><span class="node-icon">✦</span><strong>big ideas</strong><small>made visible</small></div>
+            <div class="hero-node node-api"><span>↗</span><small>APIs</small></div>
+            <div class="hero-node node-ai"><span>◒</span><small>AI</small></div>
+            <div class="hero-node node-data"><span>∿</span><small>data</small></div>
+            <span class="connector c1"></span><span class="connector c2"></span><span class="connector c3"></span>
+          </div>
+        </section>
+
+        <section class="library-section" id="library" aria-labelledby="library-title">
+          <div class="section-heading">
+            <div><p class="eyebrow">The library</p><h2 id="library-title">See the whole map.</h2></div>
+            <p class="section-intro">Every banner groups related reference sheets into one readable field guide, with each original page preserved below.</p>
+          </div>
+          <div class="filter-row" id="filters" role="group" aria-label="Filter topics"></div>
+          <div class="card-grid" id="card-grid"></div>
+        </section>
+
+        <section class="about-section" id="about" aria-labelledby="about-title">
+          <div class="about-mark" aria-hidden="true">✦</div>
+          <div><p class="eyebrow">Why KnowledgeShare</p><h2 id="about-title">Less noise.<br /><em>More signal.</em></h2></div>
+          <p>These explainers are built from first principles, with enough context to be useful and enough restraint to stay memorable. No feeds, no jargon walls — just a clearer mental model.</p>
+        </section>
+      </main>
+      <footer><span>KnowledgeShare / 2024—2025</span><span>Drawn for curious minds <b>✦</b></span></footer>
+    </div>
+
+    <dialog id="detail-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-inner">
+        <button class="dialog-close" type="button" aria-label="Close detail view">×</button>
+        <div id="dialog-art" class="dialog-art"></div>
+        <div class="dialog-content">
+          <p id="dialog-category" class="eyebrow"></p>
+          <h2 id="dialog-title"></h2>
+          <p id="dialog-summary" class="dialog-summary"></p>
+          <div id="dialog-points" class="key-points"></div>
+        </div>
+        <div class="reference-panel">
+          <div class="reference-heading"><span>Reference sheets · full frame</span><a id="dialog-pdf" href="#" target="_blank" rel="noreferrer">Open grouped PDF ↗</a></div>
+          <div class="reference-pages" id="dialog-pages"></div>
+        </div>
+      </div>
+    </dialog>
+    <script src="app.js"></script>
+  </body>
+</html>
